@@ -1,0 +1,56 @@
+.darkerTile {
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    background-color: darkgreen;
+    position: relative;
+}
+
+.app {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mowerN {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*a rotation of 270 degree because the initial image is already in east oriented*/
+    transform: translate(-50%, -50%) rotate(270deg);;
+}
+
+.mowerE {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mowerS {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.mowerW {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scaleX(-1);
+}
